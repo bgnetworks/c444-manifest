@@ -14,7 +14,7 @@
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <!-- <remote fetch="https://github.com/WinSystems" name="winsys"/> -->
   <!-- Temporary repo on BGN -->
-  <remote fetch="https://github.com/danie007" name="bgnetworks"/>
+  <remote fetch="https://github.com/danie007" name="bgn"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
@@ -43,7 +43,7 @@
   
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="440c37f0b623ccc0aa0328613908608d6362adda"/>
   
-  <project remote="bgnetworks" name="meta-winsys" path="sources/meta-winsys" revision="itx-p-c444_5.4.47" >
+  <project remote="bgn" name="meta-winsys" path="sources/meta-winsys" revision="itx-p-c444_5.4.47" >
      <linkfile src="tools/winsys-setup-release.sh" dest="winsys-setup-release.sh"/>
   </project>
 
