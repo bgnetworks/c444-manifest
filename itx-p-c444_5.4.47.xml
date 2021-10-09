@@ -14,7 +14,7 @@
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <!-- <remote fetch="https://github.com/WinSystems" name="winsys"/> -->
   <!-- Temporary repo on BGN -->
-  <remote fetch="https://github.com/danie007" name="bgn"/>
+  <remote fetch="https://github.com/bgnetworks" name="bgn"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
